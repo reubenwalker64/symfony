@@ -9,7 +9,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="view-transition" content="same-origin" />
-        <title>{% block title %}Symfony Demo application{% endblock %}</title>
+        <title>{% block title %}Symfony Station{% endblock %}</title>
         <link rel="alternate" type="application/rss+xml" title="{{ 'rss.title'|trans }}" href="{{ path('blog_rss') }}">
 
         {#
@@ -31,7 +31,7 @@
                 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
                     <div class="container">
                         <a class="navbar-brand" href="{{ path('homepage') }}">
-                            Symfony Demo
+                            Symfony Station
                         </a>
                         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#appNavbar" aria-controls="appNavbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -115,7 +115,7 @@
                 <div class="container">
                     <div class="row">
                         <div id="footer-copyright" class="col-md-6">
-                            <p>&copy; {{ 'now'|date('Y') }} - The Symfony Project</p>
+                            <p>&copy; {{ 'now'|date('Y') }} - Symfony Station</p>
                             <p>{{ 'mit_license'|trans }}</p>
                         </div>
                         <div id="footer-resources" class="col-md-6">
@@ -123,7 +123,7 @@
                                 <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/symfony" title="Symfony on X (formerly Twitter)">
                                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
                                 </a>
-                                <a target="_blank" href="https://symfony.com/blog/" title="Symfony Blog">
+                                <a target="_blank" href="https://symfonystation.mobileatom.net/communiques/" title="Symfony Station Communiques">
                                     <i class="fa-solid fa-rss" aria-hidden="true"></i>
                                 </a>
                             </p>
